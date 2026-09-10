@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height:1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+   
+}
+.m1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(232, 235, 232);
+    padding-left: 10px;
+    padding-top: 10px;
+    
+
+}
+.m2{
+    grid-row-start: 2;
+    grid-row-end: 5;
+margin-left: 10px;
+    background-color: #832c2d;
+}
+.m3{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: #832c2d;
+    padding-top: 50px;
+    padding-left: 20%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+   
+ 
+}
+
+.m1 img{
+    width: 100px;
+    height: 80px;
+
+}
+input{
+    width: 450px;
+    height: 50px;
+    padding-left: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: #832c2d;
+    color: white;
+    border: 1px solid white;
+  
+
+    
+}
+.m2 h1{
+    color: white;
+    padding-left: 8%;
+    padding-top: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.m2 p{
+    padding-left: 8%;
+    font-size: 1.8rem;
+}
+.m2 h3{
+    padding-left: 8%;
+    font-size: 3.5rem;
+}
+input[type='checkbox']{
+    width: 18px;
+    height: 15px;
+}
+.m{
+    display: flex;
+    gap: 20px;
+}
+.m3 h4{
+    font-size: 2.5rem;
+}
+.m3 p{
+    font-size: 0.84rem;
+    color: white;
+}
+textarea{
+    width: 450px;
+    height: 70px;
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: #832c2d;
+    border: 1px solid white;
+}
+button{
+    width: 430px;
+    height: 50px; 
+    margin-top:0px;
+    margin-bottom: 8rem;
+}
+html body div::placeholder{
+    color: white;
+    opacity: 1;
+
+}
+.main-box{
+    display: grid;
+    border: 1px solid black;
+    padding: 1px;
+    gap: 1px;
+    max-width: 600px;
+    min-height: 100px;
+    margin-top: 3px;
+}
+.top-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.box1,.box2{
+    height: 20px;
+    margin-top: 10px;
+}
+.class-bottom{
+    height: 75px;
+    padding-top: 10px;
+}
+.box2 button{
+    width: 15px;
+    height: 15px;
+  
+}
+.btn{
+    margin-top: 2rem;
+}
