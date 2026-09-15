@@ -1,37 +1,41 @@
- *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 100%;
-    min-height:100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
     clip-path: polygon(0 0,
-     100% 0,
-     100% 87%,
-     87% 100%,
-     0 100%);
-   
+            100% 0,
+            100% 87%,
+            87% 100%,
+            0 100%);
+
 }
-.m1{
+
+.m1 {
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: white;
     padding-left: 25px;
     padding-top: 10px;
-    
+
 
 }
-.m2{
+
+.m2 {
     grid-row-start: 2;
     grid-row-end: 5;
     margin-left: 27px;
     background-color: #832c2d;
 }
-.m3{
+
+.m3 {
     grid-row-start: 2;
     grid-row-end: 5;
     background-color: #832c2d;
@@ -44,12 +48,13 @@
     gap: 10px;
 }
 
-.m1 img{
+.m1 img {
     width: 100px;
     height: 100px;
 
 }
-input{
+
+input {
     width: 450px;
     height: 50px;
     padding-left: 5px;
@@ -59,9 +64,10 @@ input{
     color: white;
     border: 3px solid white;
 
-    
+
 }
-.m2 h1{
+
+.m2 h1 {
     color: white;
     padding-left: 11%;
     padding-top: 33%;
@@ -69,15 +75,18 @@ input{
     font-size: 5.8rem;
     font-weight: 900;
 }
-.m2 p{
+
+.m2 p {
     padding-left: 11%;
     font-size: 1.6rem;
 }
-.m2 h3{
+
+.m2 h3 {
     padding-left: 11%;
     font-size: 3.5rem;
 }
-input[type='checkbox']{
+
+input[type='checkbox'] {
     width: 16px;
     height: 16px;
     appearance: none;
@@ -86,95 +95,128 @@ input[type='checkbox']{
     border: 1px solid white;
     cursor: pointer;
     position: relative;
+ 
 
 }
-input[type="checkbox"]:checked{
-       background-color: #832c2d;
+
+input[type="checkbox"]:checked {
+    background-color: #832c2d;
 }
-input[type="checkbox"]:checked::after{
+
+input[type="checkbox"]:checked::after {
     content: "✔";
     color: #ffffff;
     font-size: 15px;
     position: absolute;
     top: -2px;
     left: 2px;
-
-
+ 
 }
-.m{
+
+.m {
     display: flex;
     gap: 20px;
 }
-.m3 h4{
+
+.m3 h4 {
     font-size: 2.5rem;
 }
-.m3 h2{
-    font-size: 13px;
+
+.m3 h2 {
+    font-size: 12px;
     font-weight: 00;
     color: white;
 }
-textarea{
+
+textarea {
     width: 450px;
     height: 80px;
-    padding-left: 5px;
+    padding: 5px;
     color: white;
     font-size: 20px;
     background-color: #832c2d;
     border: 3px solid white;
 }
-button{
+
+button {
     width: 430px;
-    height: 50px; 
-    margin-top:0px;
+    height: 50px;
+    margin-top: 0px;
     margin-bottom: 8rem;
 }
-html body div::placeholder{
+
+html body div::placeholder {
     color: white;
     opacity: 1;
 
 }
-.main-box{
-    display: grid;
 
+.main-box {
+    display: grid;
     padding: 1px;
     gap: 1px;
     max-width: 600px;
     min-height: 100px;
     margin-top: 3px;
 }
-.top-row{
+
+.top-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
-.box1,.box2{
+
+.box1,.box2 {
     height: 20px;
     margin-top: 10px;
     color: white;
 }
- .box1{
+
+.box1 {
     height: 20px;
     margin-top: 10px;
     color: white;
- }
-.class-bottom{
+}
+
+.class-bottom {
     height: 90px;
     padding-top: 10px;
 }
-.box2 button{
+
+.box2 button {
     width: 15px;
     height: 15px;
-  
+
 }
-.btn{
+
+.btn {
     margin-top: 2rem;
 
 }
-::placeholder{
+
+::placeholder {
     color: white;
+    font-size: 12px;
 }
-.m01{
+
+.m01 {
     height: 70px;
     font-size: 20px;
     color: rgba(19, 16, 16, 0.384);
+}
+.m2 h3{
+    font-family: arial;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.me{
+    margin: 10px;
+}
+label{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+input[type="checkbox"] + label,input[type="checkbox"]{
+    display: inline-block;
+    vertical-align: middle;
 }
